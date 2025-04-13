@@ -206,3 +206,11 @@ fig_calls_type = px.bar(filtered_call_type, x='לטיפול', y='כמות קרי
                         title=f'Calls by Technician - Type: {type_option}',
                         color_discrete_sequence=polytex_colors)
 st.plotly_chart(fig_calls_type)
+# =======================
+# חתימה בסוף הדף - מחוץ לבלוקים
+# =======================
+
+st.markdown("---")
+st.markdown("🧑‍💻 Developed by: **Sergey Minchin** – Polytex Service Team")
+st.markdown("📧 sergeym@polytex.co.il")
+st.markdown("📅 תאריך עדכון אחרון: אפריל 2025")
